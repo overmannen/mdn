@@ -1,0 +1,32 @@
+{
+  "name": "npm-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "jesper",
+  "type": "module",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/plotly.js-dist-min": "^2.3.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.3",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "vite": "^6.0.6"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.62.11",
+    "plotly.js-dist-min": "^2.35.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
